@@ -1,0 +1,20 @@
+phantom:
+  address: users.bugred.ru
+  timeout: 90s
+  writelog: all
+  load_profile:
+    load_type: rps
+    schedule: const(2,8s)
+  ammofile: ammo_2_uri_post.txt
+#  ammo_type: phantom
+  ammo_type: uripost
+console:
+  enabled: true # enable console output
+telegraf:
+  enabled: false # let's disable telegraf monitoring for the first time
+overload:
+  enabled: true
+  package: yandextank.plugins.DataUploader
+  token_file: "OverLoad_token.txt"
+  job_name: my test
+  job_dsc: my test description
