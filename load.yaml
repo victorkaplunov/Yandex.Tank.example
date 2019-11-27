@@ -6,9 +6,9 @@ phantom:
     load_type: rps
     schedule: const(2,8s)
   ammofile: uri_post.txt
-  ammofile: panthom_post.txt
-#  ammo_type: phantom
   ammo_type: uripost
+#  ammofile: panthom_post.txt
+#  ammo_type: phantom
 console:
   enabled: true # enable console output
 telegraf:
