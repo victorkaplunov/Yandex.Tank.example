@@ -5,7 +5,8 @@ phantom:
   load_profile:
     load_type: rps
     schedule: const(2,8s)
-  ammofile: ammo_2_uri_post.txt
+  ammofile: uri_post.txt
+  ammofile: panthom_post.txt
 #  ammo_type: phantom
   ammo_type: uripost
 console:
