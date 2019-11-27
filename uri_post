@@ -1,0 +1,11 @@
+[Host: users.bugred.ru]
+[Connection: close]
+[User-Agent: Tank]
+31 /tasks/rest/getUser
+{"email": "testasdasd@mai.com"}
+
+[Host: users.bugred.ru]
+[Connection: close]
+[User-Agent: Tank]
+30 /tasks/rest/getUser
+{"email": "testasdad@mai.com"}
