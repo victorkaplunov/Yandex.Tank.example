@@ -1,0 +1,6 @@
+119 tag
+POST /tasks/rest/getUser HTTP/1.1
+Host: users.bugred.ru
+Content-Type: application/json
+
+{"email": "testasdasd@mai.com"}
